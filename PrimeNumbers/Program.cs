@@ -11,6 +11,8 @@ namespace PrimeNumbers
 
             var fibo = new Fibo();
             Console.WriteLine(fibo.PowerLogN(24));
+            var primes = new Primes();
+            primes.Start();
         }
         static long PowerN_2LogN(long a, long n)
         {
